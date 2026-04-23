@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Premium Global NGO Palette */
+  --color-primary: #3730a3; /* Deep Indigo - Trust & Stability */
+  --color-on-primary: #ffffff;
+  --color-primary-container: #e0e7ff;
+  --color-on-primary-container: #1e1b4b;
+  
+  --color-secondary: #0891b2; /* Electric Cyan - Progress & Action */
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ecfeff;
+  --color-on-secondary-container: #164e63;
+
+  --color-accent: #f43f5e; /* Rose - Urgent Action & Emotion */
+  
+  --color-surface: #ffffff;
+  --color-on-surface: #0f172a;
+  --color-on-surface-variant: #475569;
+  
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8fafc;
+  --color-surface-container: #f1f5f9;
+  --color-surface-container-high: #e2e8f0;
+  --color-surface-container-highest: #cbd5e1;
+
+  --font-inter: var(--font-inter);
+  
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-white text-on-surface font-sans antialiased;
+    scroll-behavior: smooth;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-xl;
+  }
+  
+  .glass-nav {
+    @apply bg-white/80 backdrop-blur-md border-b border-slate-200/50;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl;
+  }
+
+  .custom-scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .custom-scroll-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Material Symbols Configuration */
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+}
+
+/* Custom Scrollbar Hide */
+.custom-scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+.custom-scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
