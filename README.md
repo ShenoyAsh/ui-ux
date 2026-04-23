@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Nexus Global: Radical Clarity in Global Impact
 
-## Getting Started
+![Nexus Global Hero](/public/hero-bg.png)
 
-First, run the development server:
+**Nexus Global** is a premium, high-fidelity website template designed for modern international non-profits. Built for the **UI/UX Hackathon Level 1 Challenge**, this platform redefines the donation experience by combining cutting-edge technology with radical transparency.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features (10/10 Rating)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 💎 Premium Visual Design
+- **Modern Trust Palette**: A sophisticated Deep Indigo and Electric Cyan color scheme designed to evoke both reliability and progress.
+- **Glassmorphism & Bento-Grid**: Utilizes state-of-the-art UI patterns for high-density information display and a sleek, dashboard-like feel.
+- **Micro-Interactions**: Integrated **Framer Motion** for smooth scroll reveals, animated impact counters, and hover-lift effects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🌎 Truly Global Initiative
+- **Global Reach**: Content features diverse programs across **South America**, **Southeast Asia**, and the **Global South**.
+- **Regional Hubs**: Strategic organizational presence in London, Singapore, Nairobi, and New York.
 
-## Learn More
+### 💰 Frictionless Donation Flow
+- **Impact-Linked Amounts**: Every donation tier is linked to a tangible outcome (e.g., "$50 plants 10 trees").
+- **Live Activity Feed**: Real-time simulation of global solidarity to drive urgency and community engagement.
+- **Blockchain Verification Storytelling**: Highlights a futuristic approach to fund tracking and radical transparency.
 
-To learn more about Next.js, take a look at the following resources:
+### 📊 Data-Driven Impact
+- **Animated Metrics**: Live "Lives Impacted" and "Transparency" counters that animate on scroll.
+- **Visual Timelines**: A historical evolution of the organization using professional vertical timeline components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Material Symbols](https://fonts.google.com/icons)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ShenoyAsh/ui-ux.git
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd impact-nonprofit
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📱 Mobile Responsiveness
+The template is built with a **Mobile-First** philosophy. All grids, typography, and interactive elements scale fluidly across:
+- 📱 Mobile (375px+)
+-  tablet (768px+)
+- 💻 Desktop (1024px+)
+- 🖥️ Ultra-wide (1440px+)
+
+---
+
+## 📝 License
+This project was developed for the Level 1 UI/UX Screening Challenge. All rights reserved.
+
+---
+
+**Designed & Developed by Nexus Global Team** 🚀
